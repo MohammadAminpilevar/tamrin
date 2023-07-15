@@ -1,0 +1,7 @@
+number=int(input())
+hour=number//3600
+print(hour)
+minute=(number % 3600) //60
+print(minute)
+secound=(number % 3600) % 60
+print(secound)
